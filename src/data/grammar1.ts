@@ -1,117 +1,275 @@
 import type { Question } from "../types";
 
-/**
- * Grammar 1 — Future (will / going to) · Present Continuous
- * Очки: 15 за правильный ответ
- */
 export const grammar1: Question[] = [
-  // ——— Future: will ———
+  // --- Personal pronouns & to be ---
   {
-    id: 901,
+    id: 2001,
     type: "grammar",
     difficulty: "beginner",
-    question: "I ___ call the client now. (decision made now)",
-    options: ["will", "am going to", "am", "do"],
-    correctAnswer: "will",
-    explanation: "Use 'will' for a decision made at the moment of speaking.",
-    explanationRu: "Используем 'will' для решения, принятого прямо сейчас.",
-    points: 15,
-    category: "Future Tense",
-    hintRu: "Решил(а) сейчас: I'll call."
+    question: "I ___ a manager.",
+    options: ["am", "is", "are", "be"],
+    correctAnswer: "am",
+    explanation: "Я менеджер.",
+    explanationRu: "С местоимением I используем форму am.",
+    points: 10,
+    category: "To be",
+    hintRu: "Форма to be для 'I'."
   },
   {
-    id: 902,
+    id: 2002,
     type: "grammar",
     difficulty: "beginner",
-    question: "I think we ___ finish the report today.",
-    options: ["will", "are", "have", "going to"],
-    correctAnswer: "will",
-    explanation: "Use 'will' for predictions/opinions without strong evidence.",
-    explanationRu: "'Will' — для предположений/мнений без явных доказательств.",
-    points: 15,
-    category: "Future Tense",
-    hintRu: "Мнение/прогноз."
+    question: "They ___ colleagues.",
+    options: ["am", "is", "are", "be"],
+    correctAnswer: "are",
+    explanation: "Они коллеги.",
+    explanationRu: "С местоимением they используем are.",
+    points: 10,
+    category: "To be",
+    hintRu: "Форма to be для множественного числа."
+  },
+  {
+    id: 2003,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "She ___ in the office now.",
+    options: ["am", "is", "are", "be"],
+    correctAnswer: "is",
+    explanation: "Она сейчас в офисе.",
+    explanationRu: "He/She/It требуют форму is.",
+    points: 10,
+    category: "To be",
+    hintRu: "Форма to be для she."
+  },
+  {
+    id: 2004,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "We ___ at the meeting.",
+    options: ["am", "is", "are", "be"],
+    correctAnswer: "are",
+    explanation: "Мы на встрече.",
+    explanationRu: "С местоимением we используем are.",
+    points: 10,
+    category: "To be",
+    hintRu: "Форма to be для we."
+  },
+  {
+    id: 2005,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "It ___ a good product.",
+    options: ["am", "is", "are", "be"],
+    correctAnswer: "is",
+    explanation: "Это хороший продукт.",
+    explanationRu: "С местоимением it используется форма is.",
+    points: 10,
+    category: "To be",
+    hintRu: "Форма to be для it."
   },
 
-  // ——— Future: be going to ———
+  // --- Articles a/an/the ---
   {
-    id: 903,
+    id: 2006,
     type: "grammar",
     difficulty: "beginner",
-    question: "We ___ launch the new website next week. (plan)",
-    options: ["are going to", "will", "are", "can"],
-    correctAnswer: "are going to",
-    explanation: "Use 'be going to' for planned future actions.",
-    explanationRu: "'Be going to' — для планов на будущее.",
-    points: 15,
-    category: "Future Tense",
-    hintRu: "Уже запланировано."
+    question: "This is ___ email from the manager.",
+    options: ["a", "an", "the", "-"],
+    correctAnswer: "an",
+    explanation: "Это письмо от менеджера.",
+    explanationRu: "Перед гласным звуком используем артикль an.",
+    points: 10,
+    category: "Articles",
+    hintRu: "Смотри на первый звук слова."
   },
   {
-    id: 904,
+    id: 2007,
     type: "grammar",
     difficulty: "beginner",
-    question: "Look at the sky! It ___ rain. (evidence)",
-    options: ["is going to", "will", "is", "should"],
-    correctAnswer: "is going to",
-    explanation: "Use 'going to' with present evidence.",
-    explanationRu: "'Going to' — когда есть явные признаки.",
-    points: 15,
-    category: "Future Tense",
-    hintRu: "Тёмные тучи."
+    question: "I have ___ colleague in New York.",
+    options: ["a", "an", "the", "-"],
+    correctAnswer: "a",
+    explanation: "У меня есть коллега в Нью-Йорке.",
+    explanationRu: "Перед согласным звуком используем артикль a.",
+    points: 10,
+    category: "Articles",
+    hintRu: "Слово начинается с согласного звука."
+  },
+  {
+    id: 2008,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "We visited ___ office near our store.",
+    options: ["a", "an", "the", "-"],
+    correctAnswer: "the",
+    explanation: "Мы посетили офис рядом с нашим магазином.",
+    explanationRu: "Артикль the используем, если предмет известен собеседнику.",
+    points: 10,
+    category: "Articles",
+    hintRu: "Офис уже упомянут или понятен из контекста."
+  },
+  {
+    id: 2009,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "She bought ___ tablet yesterday.",
+    options: ["a", "an", "the", "-"],
+    correctAnswer: "a",
+    explanation: "Она купила планшет вчера.",
+    explanationRu: "Артикль a/an используем, если предмет упоминается впервые.",
+    points: 10,
+    category: "Articles",
+    hintRu: "Впервые упоминается."
+  },
+  {
+    id: 2010,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "Look at ___ manager over there.",
+    options: ["a", "an", "the", "-"],
+    correctAnswer: "the",
+    explanation: "Посмотри на того менеджера вон там.",
+    explanationRu: "Используем the, когда предмет конкретный и видимый.",
+    points: 10,
+    category: "Articles",
+    hintRu: "Уже конкретный, видимый."
   },
 
-  // ——— Present Continuous ———
+  // --- To have / has ---
   {
-    id: 905,
+    id: 2011,
     type: "grammar",
     difficulty: "beginner",
-    question: "She ___ with a customer right now.",
-    options: ["is speaking", "speaks", "will speak", "going to speak"],
-    correctAnswer: "is speaking",
-    explanation: "Present Continuous for actions happening now.",
-    explanationRu: "Present Continuous — действие происходит сейчас.",
-    points: 15,
-    category: "Present Continuous",
-    hintRu: "Right now / at the moment."
+    question: "I ___ a meeting today.",
+    options: ["have", "has", "am", "is"],
+    correctAnswer: "have",
+    explanation: "У меня сегодня встреча.",
+    explanationRu: "С I, you, we, they используем have.",
+    points: 10,
+    category: "To have",
+    hintRu: "Форма для I/you/we/they."
   },
   {
-    id: 906,
+    id: 2012,
     type: "grammar",
     difficulty: "beginner",
-    question: "They ___ lunch in the cafeteria at the moment.",
-    options: ["are having", "have", "will have", "had"],
-    correctAnswer: "are having",
-    explanation: "'Be + V-ing' shows current activity.",
-    explanationRu: "'Be + V-ing' — действие в момент речи.",
-    points: 15,
-    category: "Present Continuous",
-    hintRu: "Сейчас едят."
+    question: "She ___ a new job.",
+    options: ["have", "has", "am", "is"],
+    correctAnswer: "has",
+    explanation: "У неё новая работа.",
+    explanationRu: "С he/she/it используем has.",
+    points: 10,
+    category: "To have",
+    hintRu: "Форма для she."
   },
   {
-    id: 927,
+    id: 2013,
     type: "grammar",
     difficulty: "beginner",
-    question: "I can’t talk now — we ___ a meeting.",
-    options: ["are having", "have", "will have", "are going to have"],
-    correctAnswer: "are having",
-    explanation: "Use Present Continuous for actions happening now.",
-    explanationRu: "Сейчас в процессе → Present Continuous.",
-    points: 15,
-    category: "Present Continuous",
-    hintRu: "Прямо сейчас."
+    question: "We ___ many products in our store.",
+    options: ["have", "has", "are", "is"],
+    correctAnswer: "have",
+    explanation: "У нас много продуктов в магазине.",
+    explanationRu: "Множественное число требует have.",
+    points: 10,
+    category: "To have",
+    hintRu: "Форма для we/they."
   },
   {
-    id: 928,
+    id: 2014,
     type: "grammar",
     difficulty: "beginner",
-    question: "Listen! The manager ___ an announcement.",
-    options: ["is making", "makes", "will make", "going to make"],
-    correctAnswer: "is making",
-    explanation: "Something happening at the moment → Present Continuous.",
-    explanationRu: "В момент речи → is making.",
-    points: 15,
-    category: "Present Continuous",
-    hintRu: "Listen! / Look! — часто PC."
+    question: "He ___ two colleagues in London.",
+    options: ["have", "has", "am", "are"],
+    correctAnswer: "has",
+    explanation: "У него два коллеги в Лондоне.",
+    explanationRu: "He → has.",
+    points: 10,
+    category: "To have",
+    hintRu: "Форма для he."
+  },
+  {
+    id: 2015,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "They ___ many meetings this week.",
+    options: ["have", "has", "is", "are"],
+    correctAnswer: "have",
+    explanation: "У них много встреч на этой неделе.",
+    explanationRu: "They → have.",
+    points: 10,
+    category: "To have",
+    hintRu: "Форма для they."
+  },
+
+  // --- Possessive adjectives ---
+  {
+    id: 2016,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "This is ___ office. (мы)",
+    options: ["our", "my", "their", "his"],
+    correctAnswer: "our",
+    explanation: "Это наш офис.",
+    explanationRu: "Our используется для 'мы'.",
+    points: 10,
+    category: "Possessive adjectives",
+    hintRu: "Притяжательное для we."
+  },
+  {
+    id: 2017,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "He likes ___ job.",
+    options: ["his", "her", "our", "my"],
+    correctAnswer: "his",
+    explanation: "Ему нравится его работа.",
+    explanationRu: "His = его.",
+    points: 10,
+    category: "Possessive adjectives",
+    hintRu: "Притяжательное для he."
+  },
+  {
+    id: 2018,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "I like ___ new colleague.",
+    options: ["my", "our", "their", "her"],
+    correctAnswer: "my",
+    explanation: "Мне нравится мой новый коллега.",
+    explanationRu: "My = мой/моя/моё.",
+    points: 10,
+    category: "Possessive adjectives",
+    hintRu: "Притяжательное для I."
+  },
+  {
+    id: 2019,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "She likes ___ manager.",
+    options: ["her", "his", "our", "my"],
+    correctAnswer: "her",
+    explanation: "Ей нравится её менеджер.",
+    explanationRu: "Her = её.",
+    points: 10,
+    category: "Possessive adjectives",
+    hintRu: "Притяжательное для she."
+  },
+  {
+    id: 2020,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "They like ___ new office.",
+    options: ["their", "our", "his", "her"],
+    correctAnswer: "their",
+    explanation: "Им нравится их новый офис.",
+    explanationRu: "Their = их.",
+    points: 10,
+    category: "Possessive adjectives",
+    hintRu: "Притяжательное для they."
   }
 ];
+
+
+
+
