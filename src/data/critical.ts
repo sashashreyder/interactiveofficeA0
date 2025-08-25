@@ -5,144 +5,144 @@ export const criticalThinkingQuestions: Question[] = [
     id: 301,
     type: "critical_thinking",
     difficulty: "beginner",
-    question: "You are late. What do you say?",
+    question: "Client says: 'Not happy'. What do you say?",
     options: [
-      "Sorry",
-      "Good morning",
-      "Bye",
-      "Nothing"
+      "Sorry. Tell me more?",
+      "It’s not my job",
+      "Nothing",
+      "Come tomorrow"
     ],
-    correctAnswer: "Sorry",
-    explanation: "Best is to say 'Sorry'.",
-    explanationRu: "Лучше всего сказать «Sorry».",
+    correctAnswer: "Sorry. Tell me more?",
+    explanation: "Say sorry and ask more. Show care.",
+    explanationRu: "Скажи «Sorry» и попроси рассказать подробнее.",
     points: 10,
-    category: "School",
-    hintRu: "Опоздал → коротко извиниться."
+    category: "Customer",
+    hintRu: "Клиент жалуется → извинись и спроси."
   },
   {
     id: 302,
     type: "critical_thinking",
     difficulty: "beginner",
-    question: "In shop: cashier gives extra money. What do you do?",
+    question: "Meeting: you are late. What do you do?",
     options: [
-      "Keep it",
-      "Say: Too much",
-      "Run",
-      "Smile"
+      "Enter quiet. Say 'Sorry'.",
+      "Skip meeting",
+      "Talk loud about traffic",
+      "Wait outside"
     ],
-    correctAnswer: "Say: Too much",
-    explanation: "Tell the cashier the change is wrong.",
-    explanationRu: "Нужно сказать кассиру: «Too much» (слишком много).",
+    correctAnswer: "Enter quiet. Say 'Sorry'.",
+    explanation: "Come in quietly and say sorry.",
+    explanationRu: "Зайди тихо и скажи «Sorry».",
     points: 10,
-    category: "Shopping",
-    hintRu: "Получил лишние деньги."
+    category: "Meeting",
+    hintRu: "Лучше не мешать и извиниться."
   },
   {
     id: 303,
     type: "critical_thinking",
     difficulty: "beginner",
-    question: "Friend is sad. What do you say?",
+    question: "Boss gives task. You don’t understand. What do you say?",
     options: [
-      "Hello",
-      "Are you OK?",
-      "Good night",
-      "Nothing"
+      "Repeat, please",
+      "Do nothing",
+      "Say 'Impossible'",
+      "Guess"
     ],
-    correctAnswer: "Are you OK?",
-    explanation: "Best is to ask 'Are you OK?'.",
-    explanationRu: "Лучше спросить: «Are you OK?» — «Ты в порядке?»",
+    correctAnswer: "Repeat, please",
+    explanation: "Ask again to understand task.",
+    explanationRu: "Скажи «Repeat, please» или попроси объяснить снова.",
     points: 10,
-    category: "Friends",
-    hintRu: "Друг грустный → спроси."
+    category: "Work",
+    hintRu: "Если не понял задание."
   },
   {
     id: 304,
     type: "critical_thinking",
     difficulty: "beginner",
-    question: "Teacher says: 'Homework?'. But you forgot. What do you say?",
+    question: "Office floor is wet. What do you do?",
     options: [
-      "I forgot",
-      "Yes, here",
-      "No English",
-      "Nothing"
+      "Tell manager",
+      "Play",
+      "Say nothing",
+      "Run"
     ],
-    correctAnswer: "I forgot",
-    explanation: "Say honestly: 'I forgot'.",
-    explanationRu: "Лучше честно сказать: «I forgot» — «Я забыл».",
+    correctAnswer: "Tell manager",
+    explanation: "Tell manager or staff. Safety first.",
+    explanationRu: "Сообщи менеджеру или персоналу. Это безопасность.",
     points: 10,
-    category: "School",
-    hintRu: "Домашка осталась дома."
+    category: "Office",
+    hintRu: "Опасность → сообщи."
   },
   {
     id: 305,
     type: "critical_thinking",
     difficulty: "beginner",
-    question: "In class: you don’t understand. What do you say?",
+    question: "Cashier gives extra money. What do you do?",
     options: [
-      "Repeat, please",
-      "OK",
-      "Bye",
-      "Nothing"
+      "Say: Too much",
+      "Keep it",
+      "Smile",
+      "Leave fast"
     ],
-    correctAnswer: "Repeat, please",
-    explanation: "Ask: 'Repeat, please'.",
-    explanationRu: "Нужно сказать: «Repeat, please» — «Повторите, пожалуйста».",
+    correctAnswer: "Say: Too much",
+    explanation: "Say money is too much. Be honest.",
+    explanationRu: "Скажи «Too much». Будь честным.",
     points: 10,
-    category: "Learning",
-    hintRu: "Не понял → попроси повторить."
+    category: "Shopping",
+    hintRu: "Получил лишние деньги."
   },
   {
     id: 306,
     type: "critical_thinking",
     difficulty: "beginner",
-    question: "Floor is wet. What do you do?",
+    question: "Client speaks very fast. What do you say?",
     options: [
-      "Say nothing",
-      "Tell teacher",
-      "Run",
-      "Play"
+      "Slowly, please",
+      "Yes, yes",
+      "Nothing",
+      "Bye"
     ],
-    correctAnswer: "Tell teacher",
-    explanation: "Tell teacher or staff: floor is wet.",
-    explanationRu: "Скажи учителю или персоналу: «Пол мокрый».",
+    correctAnswer: "Slowly, please",
+    explanation: "Ask client to speak slowly.",
+    explanationRu: "Скажи «Slowly, please».",
     points: 10,
-    category: "Safety",
-    hintRu: "Чтобы не упали."
+    category: "Customer",
+    hintRu: "Не понял → попроси медленнее."
   },
   {
     id: 307,
     type: "critical_thinking",
     difficulty: "beginner",
-    question: "Customer speaks fast. What do you say?",
+    question: "Teammate makes mistake in document. What do you do?",
     options: [
-      "Slowly, please",
-      "Bye",
-      "Yes, yes",
-      "Nothing"
+      "Fix it + tell friend",
+      "Public chat blame",
+      "Delete doc",
+      "Say nothing"
     ],
-    correctAnswer: "Slowly, please",
-    explanation: "Ask: 'Slowly, please'.",
-    explanationRu: "Скажи: «Slowly, please» — «Помедленнее, пожалуйста».",
+    correctAnswer: "Fix it + tell friend",
+    explanation: "Fix mistake and tell politely.",
+    explanationRu: "Исправь и вежливо скажи коллеге.",
     points: 10,
-    category: "Communication",
-    hintRu: "Если не понял речь."
+    category: "Teamwork",
+    hintRu: "Ошибка → исправь + предупреди."
   },
   {
     id: 308,
     type: "critical_thinking",
     difficulty: "beginner",
-    question: "Friend says: 'Take my test answers!'. What do you do?",
+    question: "Colleague asks help. You are busy. What do you say?",
     options: [
-      "No, thanks",
-      "Yes",
-      "Copy",
-      "Nothing"
+      "I can later",
+      "Ignore",
+      "Yes and miss work",
+      "No! Go away"
     ],
-    correctAnswer: "No, thanks",
-    explanation: "Say 'No, thanks'. Don’t copy.",
-    explanationRu: "Нужно сказать «No, thanks» и не списывать.",
+    correctAnswer: "I can later",
+    explanation: "Say when you can help.",
+    explanationRu: "Скажи, что поможешь позже.",
     points: 10,
-    category: "School",
-    hintRu: "Не бери чужие ответы."
+    category: "Work",
+    hintRu: "Баланс: работа и помощь."
   }
 ];
