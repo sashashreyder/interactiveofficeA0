@@ -99,18 +99,18 @@ const App: React.FC = () => {
       case "vocabulary":
         if (!selectedVocab) {
           return (
-            <ContentWrapper>
-              <ExerciseSelector
-                title="Выберите упражнение по лексике"
-                items={[
-                  { key: "vocab1", label: "Vocabulary 1 — Business Center", icon: "📘" },
-                  { key: "vocab2", label: "Vocabulary 2 — Management & Customers", icon: "📗" },
-                  { key: "vocab3", label: "Vocabulary 3 — Strategy & Admin", icon: "📙" },
-                ]}
-                onSelect={(key: VocabKey) => setSelectedVocab(key)}
-                onBack={() => setGameState(p => ({ ...p, currentMode: "main" }))}
-              />
-            </ContentWrapper>
+<ContentWrapper>
+  <ExerciseSelector
+    title="Выберите упражнение по лексике (A0)"
+    items={[
+      { key: "vocab1", label: "Vocabulary 1 — Introduction to Business Sector (A0)", icon: "📘" },
+      { key: "vocab2", label: "Vocabulary 2 — Instrumentary of a Manager & Manager’s Activities (A0)", icon: "📗" },
+      { key: "vocab3", label: "Vocabulary 3 — Telling about Previous Work Experience (A0)", icon: "📙" },
+    ]}
+    onSelect={(key: VocabKey) => setSelectedVocab(key)}
+    onBack={() => setGameState(p => ({ ...p, currentMode: "main" }))}
+  />
+</ContentWrapper>
           );
         }
         return (
@@ -128,17 +128,17 @@ const App: React.FC = () => {
         if (!selectedGrammar) {
           return (
             <ContentWrapper>
-              <ExerciseSelector
-                title="Выберите упражнение по грамматике"
-                items={[
-                  { key: "grammar1", label: "Grammar 1 — Will / Going to", icon: "✏️" },
-                  { key: "grammar2", label: "Grammar 2 — Present Continuous vs Simple", icon: "✏️" },
-                  { key: "grammar3", label: "Grammar 3 — Would like • Need/Want • Modals • There is/are • etc.", icon: "✏️" },
-                ]}
-                onSelect={(key: GrammarKey) => setSelectedGrammar(key)}
-                onBack={() => setGameState(p => ({ ...p, currentMode: "main" }))}
-              />
-            </ContentWrapper>
+  <ExerciseSelector
+    title="Выберите упражнение по грамматике (A0)"
+    items={[
+      { key: "grammar1", label: "Grammar 1 — Personal pronouns & to be · Articles (a/an, the) · have/has · Possessives (A0)", icon: "✏️" },
+      { key: "grammar2", label: "Grammar 2 — Present Simple · can/can’t · Prepositions at/on/in (A0)", icon: "✏️" },
+      { key: "grammar3", label: "Grammar 3 — Basic questions (who/what/where/why) · Short answers · This/That/These/Those (A0)", icon: "✏️" },
+    ]}
+    onSelect={(key: GrammarKey) => setSelectedGrammar(key)}
+    onBack={() => setGameState(p => ({ ...p, currentMode: "main" }))}
+  />
+</ContentWrapper>
           );
         }
         return (

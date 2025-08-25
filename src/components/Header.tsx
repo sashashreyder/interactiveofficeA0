@@ -13,7 +13,7 @@ const Header: React.FC<{ gameState: GameState }> = ({ gameState }) => (
               <span className="text-2xl">🏢</span>
               <span>Интерактивный офис</span>
             </div>
-            <p className="text-slate-200 mt-3 text-sm sm:text-base">Бизнес-английский • Уровень A1</p>
+            <p className="text-slate-200 mt-3 text-sm sm:text-base">Бизнес-английский • Уровень A0</p>
             <p className="text-slate-200/90 font-medium text-sm sm:text-base">
               Лексика • Грамматика • Критическое мышление • Общение
             </p>
