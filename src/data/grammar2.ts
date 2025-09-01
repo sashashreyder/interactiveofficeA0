@@ -1,0 +1,272 @@
+import type { Question } from "../types";
+
+export const grammar2: Question[] = [
+  // --- Plural nouns ---
+  {
+    id: 2101,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "We have two ___ in our company.",
+    options: ["manager", "managers", "manageres", "manag"],
+    correctAnswer: "managers",
+    explanation: "У нас два менеджера в компании.",
+    explanationRu: "Обычное множественное число образуется с -s.",
+    points: 10,
+    category: "Plural Nouns",
+    hintRu: "Посмотри на окончание -s."
+  },
+  {
+    id: 2102,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "There are many ___ in the store.",
+    options: ["product", "products", "productes", "produce"],
+    correctAnswer: "products",
+    explanation: "В магазине много продуктов.",
+    explanationRu: "Products — правильное множественное число.",
+    points: 10,
+    category: "Plural Nouns",
+    hintRu: "Правильное окончание."
+  },
+  {
+    id: 2103,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "Three ___ are waiting in the office.",
+    options: ["colleague", "colleagues", "colleags", "colleaguies"],
+    correctAnswer: "colleagues",
+    explanation: "Три коллеги ждут в офисе.",
+    explanationRu: "Colleagues — форма множественного числа.",
+    points: 10,
+    category: "Plural Nouns",
+    hintRu: "Окончание -ues."
+  },
+  {
+    id: 2104,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "We bought two ___ yesterday.",
+    options: ["tablet", "tablets", "tabletes", "table"],
+    correctAnswer: "tablets",
+    explanation: "Мы купили два планшета вчера.",
+    explanationRu: "Tablets — правильная форма во множественном числе.",
+    points: 10,
+    category: "Plural Nouns",
+    hintRu: "Добавляем -s."
+  },
+  {
+    id: 2105,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "Five ___ are on the desk.",
+    options: ["report", "reports", "reportes", "repor"],
+    correctAnswer: "reports",
+    explanation: "На столе пять отчётов.",
+    explanationRu: "Reports → множественное число.",
+    points: 10,
+    category: "Plural Nouns",
+    hintRu: "Смотрим на окончание -s."
+  },
+
+  // --- Numbers 1–100 ---
+  {
+    id: 2106,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "I have ___ emails today. (15)",
+    options: ["fifteen", "fifty", "five", "fifteenth"],
+    correctAnswer: "fifteen",
+    explanation: "У меня 15 писем сегодня.",
+    explanationRu: "15 = fifteen.",
+    points: 10,
+    category: "Numbers",
+    hintRu: "Число 15."
+  },
+  {
+    id: 2107,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "She called me ___ times. (20)",
+    options: ["twelve", "twenty", "two", "ten"],
+    correctAnswer: "twenty",
+    explanation: "Она звонила мне 20 раз.",
+    explanationRu: "20 = twenty.",
+    points: 10,
+    category: "Numbers",
+    hintRu: "Число 20."
+  },
+  {
+    id: 2108,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "There are ___ managers in the room. (30)",
+    options: ["thirty", "thirteen", "three", "thirtyth"],
+    correctAnswer: "thirty",
+    explanation: "В комнате 30 менеджеров.",
+    explanationRu: "30 = thirty.",
+    points: 10,
+    category: "Numbers",
+    hintRu: "Число 30."
+  },
+  {
+    id: 2109,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "We need ___ new products. (100)",
+    options: ["hundred", "one hundred", "hundreds", "a hundred"],
+    correctAnswer: "one hundred",
+    explanation: "Нам нужно 100 новых продуктов.",
+    explanationRu: "100 = one hundred.",
+    points: 10,
+    category: "Numbers",
+    hintRu: "Ровно 100."
+  },
+  {
+    id: 2110,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "He has ___ colleagues in Paris. (40)",
+    options: ["fourteen", "forty", "four", "fourty"],
+    correctAnswer: "forty",
+    explanation: "У него 40 коллег в Париже.",
+    explanationRu: "40 = forty (не fourty!).",
+    points: 10,
+    category: "Numbers",
+    hintRu: "Число 40."
+  },
+
+  // --- Present Simple ---
+  {
+    id: 2111,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "She ___ to the office every day.",
+    options: ["go", "goes", "going", "gone"],
+    correctAnswer: "goes",
+    explanation: "Она ходит в офис каждый день.",
+    explanationRu: "He/She/It требует окончания -s.",
+    points: 10,
+    category: "Present Simple",
+    hintRu: "Третье лицо ед. числа."
+  },
+  {
+    id: 2112,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "I ___ English lessons on Monday.",
+    options: ["have", "has", "having", "had"],
+    correctAnswer: "have",
+    explanation: "У меня уроки английского по понедельникам.",
+    explanationRu: "С I используем have.",
+    points: 10,
+    category: "Present Simple",
+    hintRu: "Форма для I."
+  },
+  {
+    id: 2113,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "We ___ in a big office.",
+    options: ["work", "works", "worked", "working"],
+    correctAnswer: "work",
+    explanation: "Мы работаем в большом офисе.",
+    explanationRu: "We — форма без -s.",
+    points: 10,
+    category: "Present Simple",
+    hintRu: "Форма для we/they."
+  },
+  {
+    id: 2114,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "He ___ products to clients.",
+    options: ["sell", "sells", "selling", "selled"],
+    correctAnswer: "sells",
+    explanation: "Он продаёт продукты клиентам.",
+    explanationRu: "He/She/It → добавляем -s.",
+    points: 10,
+    category: "Present Simple",
+    hintRu: "Третье лицо ед. числа."
+  },
+  {
+    id: 2115,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "They ___ new colleagues every year.",
+    options: ["hire", "hires", "hired", "hiring"],
+    correctAnswer: "hire",
+    explanation: "Они нанимают новых коллег каждый год.",
+    explanationRu: "They → без окончания -s.",
+    points: 10,
+    category: "Present Simple",
+    hintRu: "Форма для they."
+  },
+
+  // --- Can / Can’t ---
+  {
+    id: 2116,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "I ___ speak English.",
+    options: ["can", "can't", "is", "am"],
+    correctAnswer: "can",
+    explanation: "Я умею говорить по-английски.",
+    explanationRu: "Can = уметь/мочь.",
+    points: 10,
+    category: "Can/Can't",
+    hintRu: "Способность."
+  },
+  {
+    id: 2117,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "She ___ drive a car.",
+    options: ["can", "can't", "is", "are"],
+    correctAnswer: "can",
+    explanation: "Она умеет водить машину.",
+    explanationRu: "Can показывает умение.",
+    points: 10,
+    category: "Can/Can't",
+    hintRu: "Умение."
+  },
+  {
+    id: 2118,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "We ___ work late today.",
+    options: ["can", "can't", "is", "are"],
+    correctAnswer: "can't",
+    explanation: "Мы не можем работать допоздна сегодня.",
+    explanationRu: "Can't = отрицание от can.",
+    points: 10,
+    category: "Can/Can't",
+    hintRu: "Отрицание."
+  },
+  {
+    id: 2119,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "They ___ use this program very well.",
+    options: ["can", "can't", "is", "are"],
+    correctAnswer: "can",
+    explanation: "Они умеют хорошо пользоваться этой программой.",
+    explanationRu: "Can используется для способностей.",
+    points: 10,
+    category: "Can/Can't",
+    hintRu: "Могут что-то делать."
+  },
+  {
+    id: 2120,
+    type: "grammar",
+    difficulty: "beginner",
+    question: "I’m sorry, I ___ come to the meeting.",
+    options: ["can", "can't", "is", "are"],
+    correctAnswer: "can't",
+    explanation: "Извини, я не могу прийти на встречу.",
+    explanationRu: "Can't = невозможность.",
+    points: 10,
+    category: "Can/Can't",
+    hintRu: "Не могу."
+  }
+];
+

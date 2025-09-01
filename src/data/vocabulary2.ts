@@ -1,0 +1,272 @@
+import type { Question } from "../types";
+
+export const vocabulary2: Question[] = [
+  // 🧩 Tools & Actions for Managers
+  {
+    id: 3101,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Translate: «бланк».",
+    options: ["document", "blank", "protocol", "report"],
+    correctAnswer: "blank",
+    explanation: "blank = бланк",
+    explanationRu: "Blank — это форма или пустой лист.",
+    points: 10,
+    category: "Tools",
+    hintRu: "Форма для заполнения."
+  },
+  {
+    id: 3102,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "What does «информационный листок» mean?",
+    options: ["checklist", "bulletin", "tablet", "report"],
+    correctAnswer: "bulletin",
+    explanation: "bulletin = информационный листок",
+    explanationRu: "Bulletin — это информационный лист.",
+    points: 10,
+    category: "Tools",
+    hintRu: "Короткое объявление."
+  },
+  {
+    id: 3103,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Which word is «контрольный список»?",
+    options: ["checklist", "report", "protocol", "subsidiary"],
+    correctAnswer: "checklist",
+    explanation: "checklist = контрольный список",
+    explanationRu: "Checklist — список для проверки.",
+    points: 10,
+    category: "Tools",
+    hintRu: "Чтобы ничего не забыть."
+  },
+  {
+    id: 3104,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Translate: «протокол».",
+    options: ["document", "protocol", "report", "blank"],
+    correctAnswer: "protocol",
+    explanation: "protocol = протокол",
+    explanationRu: "Protocol — официальный документ.",
+    points: 10,
+    category: "Tools",
+    hintRu: "Фиксирует правила или действия."
+  },
+  {
+    id: 3105,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "What is «склад» in English?",
+    options: ["warehouse", "store", "office", "department"],
+    correctAnswer: "warehouse",
+    explanation: "warehouse = склад",
+    explanationRu: "Warehouse — большое помещение для хранения товаров.",
+    points: 10,
+    category: "Tools",
+    hintRu: "Там хранят товары."
+  },
+
+  // ✅ Verbs for Business Operations
+  {
+    id: 3111,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Translate: «сертифицировать».",
+    options: ["to certify", "to codify", "to notify", "to pack"],
+    correctAnswer: "to certify",
+    explanation: "to certify = сертифицировать",
+    explanationRu: "Certify — подтверждать официально.",
+    points: 10,
+    category: "Verbs",
+    hintRu: "Официальное подтверждение."
+  },
+  {
+    id: 3112,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Which verb means «упаковывать»?",
+    options: ["to review", "to restock", "to pack", "to correct"],
+    correctAnswer: "to pack",
+    explanation: "to pack = упаковывать",
+    explanationRu: "Pack — класть вещи в коробку или чемодан.",
+    points: 10,
+    category: "Verbs",
+    hintRu: "Собираешь вещи в чемодан."
+  },
+  {
+    id: 3113,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Translate: «обозревать, проверять».",
+    options: ["to review", "to drill down", "to count", "to codify"],
+    correctAnswer: "to review",
+    explanation: "to review = обозревать",
+    explanationRu: "Review — проверять или пересматривать.",
+    points: 10,
+    category: "Verbs",
+    hintRu: "Учитель проверяет работу."
+  },
+  {
+    id: 3114,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Which verb means «пополнять»?",
+    options: ["to restock", "to notify", "to correct", "to ratify"],
+    correctAnswer: "to restock",
+    explanation: "to restock = пополнять",
+    explanationRu: "Restock — снова заполнить магазин товарами.",
+    points: 10,
+    category: "Verbs",
+    hintRu: "После продажи снова добавляют товар."
+  },
+  {
+    id: 3115,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Translate: «ратифицировать».",
+    options: ["to ratify", "to notify", "to drill down", "to count"],
+    correctAnswer: "to ratify",
+    explanation: "to ratify = ратифицировать",
+    explanationRu: "Ratify — официально подтвердить закон или соглашение.",
+    points: 10,
+    category: "Verbs",
+    hintRu: "Парламент утверждает договор."
+  },
+
+  // 🧠 Adjectives
+  {
+    id: 3121,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "What is the English for «гибкий»?",
+    options: ["confidential", "damaged", "agile", "redundant"],
+    correctAnswer: "agile",
+    explanation: "agile = гибкий",
+    explanationRu: "Agile — это гибкий, подвижный.",
+    points: 10,
+    category: "Adjectives",
+    hintRu: "Используется в IT (Agile)."
+  },
+  {
+    id: 3122,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Translate: «повреждённый».",
+    options: ["optimal", "damaged", "nominal", "scant"],
+    correctAnswer: "damaged",
+    explanation: "damaged = повреждённый",
+    explanationRu: "Damaged — это испорченный или поломанный.",
+    points: 10,
+    category: "Adjectives",
+    hintRu: "После аварии."
+  },
+  {
+    id: 3123,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Which word means «предварительный»?",
+    options: ["redundant", "tentative", "complete", "astute"],
+    correctAnswer: "tentative",
+    explanation: "tentative = предварительный",
+    explanationRu: "Tentative — это ещё не окончательный.",
+    points: 10,
+    category: "Adjectives",
+    hintRu: "Черновой вариант."
+  },
+  {
+    id: 3124,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Translate: «проницательный».",
+    options: ["astute", "confidential", "optimal", "redundant"],
+    correctAnswer: "astute",
+    explanation: "astute = проницательный",
+    explanationRu: "Astute — человек с хорошим пониманием ситуации.",
+    points: 10,
+    category: "Adjectives",
+    hintRu: "Очень умный и видит наперёд."
+  },
+  {
+    id: 3125,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "What is the English for «конфиденциальный»?",
+    options: ["confidential", "agile", "scant", "optimal"],
+    correctAnswer: "confidential",
+    explanation: "confidential = конфиденциальный",
+    explanationRu: "Confidential — секретный, личный.",
+    points: 10,
+    category: "Adjectives",
+    hintRu: "Не для всех, только для своих."
+  },
+
+  // 💬 Phrases
+  {
+    id: 3131,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Translate the phrase: «генеральный директор».",
+    options: ["HR", "PR", "CEO", "manager"],
+    correctAnswer: "CEO",
+    explanation: "CEO = генеральный директор",
+    explanationRu: "CEO (Chief Executive Officer) — это глава компании.",
+    points: 10,
+    category: "Phrases",
+    hintRu: "Самый главный в компании."
+  },
+  {
+    id: 3132,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "What is the English for «отдел кадров»?",
+    options: ["HR", "CEO", "PR", "manager"],
+    correctAnswer: "HR",
+    explanation: "HR = отдел кадров",
+    explanationRu: "HR (Human Resources) — управление персоналом.",
+    points: 10,
+    category: "Phrases",
+    hintRu: "Занимаются сотрудниками."
+  },
+  {
+    id: 3133,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Which phrase means «начинать сначала»?",
+    options: ["cash flow", "back to the drawing board", "hit the ground running", "get the ball rolling"],
+    correctAnswer: "back to the drawing board",
+    explanation: "back to the drawing board = начинать сначала",
+    explanationRu: "Фраза — вернуться к началу, когда что-то не получилось.",
+    points: 10,
+    category: "Phrases",
+    hintRu: "После ошибки всё переделывать."
+  },
+  {
+    id: 3134,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Translate: «денежный поток».",
+    options: ["cash flow", "de facto", "de jure", "balance sheet"],
+    correctAnswer: "cash flow",
+    explanation: "cash flow = денежный поток",
+    explanationRu: "Cash flow — движение денег в компании.",
+    points: 10,
+    category: "Phrases",
+    hintRu: "Деньги приходят и уходят."
+  },
+  {
+    id: 3135,
+    type: "vocabulary",
+    difficulty: "beginner",
+    question: "Which phrase means «втягиваться в работу»?",
+    options: ["hit the ground running", "handle with care", "de facto", "cash flow"],
+    correctAnswer: "hit the ground running",
+    explanation: "hit the ground running = втягиваться в работу",
+    explanationRu: "Фраза — сразу активно начать работать.",
+    points: 10,
+    category: "Phrases",
+    hintRu: "Начать энергично."
+  }
+];
+
